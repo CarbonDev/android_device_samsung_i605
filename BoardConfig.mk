@@ -21,5 +21,5 @@ TARGET_OTA_ASSERT_DEVICE := t0ltevzw,i605,SCH-I605
 # common
 -include device/samsung/t0ltecdma/BoardCommonConfig.mk
 
-# include
+# inherit from the proprietary version
 -include vendor/samsung/t0ltecdma/BoardConfigVendor.mk
