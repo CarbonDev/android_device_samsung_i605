@@ -22,4 +22,4 @@ TARGET_OTA_ASSERT_DEVICE := t0ltevzw,i605,SCH-I605
 -include device/samsung/t0ltecdma/BoardCommonConfig.mk
 
 # props
--include vendor/samsung/i605/BoardConfigVendor.mk
+-include vendor/samsung/t0ltecdma/BoardConfigVendor.mk
