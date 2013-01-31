@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project
-# Copyright (C) 2012 The LiquidSmooth Project
+# Copyright (C) 2012 The Carbon Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,18 +22,18 @@ PRODUCT_RELEASE_NAME := i605
 $(call inherit-product, device/samsung/i605/full_i605.mk)
 
 # phone
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # telephony
-$(call inherit-product, vendor/liquid/config/common_cdma.mk)
+$(call inherit-product, vendor/carbon/config/common_cdma.mk)
 
 # product
 PRODUCT_DEVICE := i605
 PRODUCT_BRAND := samsung
-PRODUCT_NAME := liquid_i605
+PRODUCT_NAME := carbon_i605
 PRODUCT_MODEL := SCH-I605
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.i605.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.i605.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
