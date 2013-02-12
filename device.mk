@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
 
 # permissions
 PRODUCT_COPY_FILES += \
-        $(LOCAL_PATH)/configs/tiny_hw.xml:system/etc/sound/t0ltevzw \
         $(LOCAL_PATH)/configs/vzwapnlib.xml:system/etc/permissions/vzwapnlib.xml \
         $(LOCAL_PATH)/configs/com.verizon.hardware.telephony.xml:system/etc/permissions/com.verizon.hardware.telephony.xml
 
