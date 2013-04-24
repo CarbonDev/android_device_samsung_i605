@@ -10,7 +10,7 @@ ro.sf.lcd_density=320
 ro.lcd_min_brightness=20
 telephony.lteOnCdmaDevice=1
 ro.cdma.subscribe_on_ruim_ready=true
-ril.subscription.types=RUIM,NV
+ril.subscription.types=RUIM
 persist.radio.no_wait_for_card=0
 ro.hdcp2.rx=tz
 
@@ -25,7 +25,8 @@ persist.data_netmgrd_nint=16
 #
 ro.telephony.call_ring.multiple=0
 
-# Fields For Custom RIL
+# Fields for custom RIL
+# MAX PROP NAME is 31 chars --|
 gsm.sim.operator.alpha=Verizon
 gsm.sim.operator.numeric=310004
 gsm.sim.operator.iso-country=us
@@ -42,7 +43,7 @@ ro.config.svlte1x=true
 persist.radio.apm_sim_not_pwdn=0
 
 # System property for sys info indication
-#persist.radio.add_power_save=1
+persist.radio.add_power_save=1
 
 # System propverty snapshot disable
 persist.radio.snapshot_disabled=1
@@ -57,3 +58,4 @@ dalvik.vm.heapminfree=2m
 dalvik.vm.heapstartsize=32m
 dalvik.vm.heapgrowthlimit=256m
 dalvik.vm.heaputilization=0.75
+
