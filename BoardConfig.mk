@@ -16,7 +16,7 @@
 #
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := t0ltevzw,i605,SCH-I605
+TARGET_OTA_ASSERT_DEVICE := t0ltevzw,t0ltecdma,i605,SCH-I605
 
 # common
 -include device/samsung/t0ltecdma/BoardCommonConfig.mk
