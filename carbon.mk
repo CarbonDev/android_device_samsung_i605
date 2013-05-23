@@ -48,5 +48,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=t0ltevzw \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="t0ltevzw-user 4.1.1 JRO03C I605VRALL4 release-keys"
-    BBUILD_FINGERPRINT="Verizon/t0ltevzw/t0ltevzw:4.1.1/JRO03C/I605VRALL4:user/release-keys"
+    PRIVATE_BUILD_DESC="t0ltevzw-user 4.1.2 JZO54K I605VRAMC3 release-keys"
+    BUILD_FINGERPRINT="Verizon/t0ltevzw/t0ltevzw:4.1.2/JZO54K/I605VRAMC3:user/release-keys"
