@@ -31,7 +31,6 @@ PRODUCT_PACKAGES += \
     vzwapnpermission \
     VZWAPNService
 
-# permissions
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/configs/vzwapnlib.xml:system/etc/permissions/vzwapnlib.xml \
         $(LOCAL_PATH)/configs/com.verizon.hardware.telephony.xml:system/etc/permissions/com.verizon.hardware.telephony.xml
