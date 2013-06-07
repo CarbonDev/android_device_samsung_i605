@@ -16,6 +16,8 @@
 
 LOCAL_PATH := device/samsung/i605
 
+TARGET_VOICE_TECH := cdma
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
