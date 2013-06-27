@@ -16,7 +16,7 @@
 #
 
 # device
-$(call inherit-product, device/samsung/i605/device.mk)
+$(call inherit-product, device/samsung/i605/i605.mk)
 
 # telephony
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
